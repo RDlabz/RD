@@ -4,6 +4,11 @@ import "../globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
+ 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
+}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +38,9 @@ export default async function RootLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+  // Enable static rendering
+  setRequestLocale(locale);
 
   return (
     <html lang={locale}>
