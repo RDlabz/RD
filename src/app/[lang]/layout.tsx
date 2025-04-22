@@ -17,13 +17,25 @@ export const metadata: Metadata = {
   description: "Slick, Efficient and Secured Applications",
 };
 
-export default function RootLayout({
+// export async function generateStaticParams() {
+//   return [
+//     { lang: 'en' },
+//     { lang: 'gr' }
+//   ];
+// }
+
+export default async function RootLayout({
   children,
+  params
 }: Readonly<{
   children: React.ReactNode;
+  params: { lang: string };
 }>) {
+
+  const {lang} = await params
+
   return (
-    <html lang="en">
+    <html lang={lang}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
