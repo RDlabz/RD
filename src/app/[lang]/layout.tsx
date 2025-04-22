@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   description: "Slick, Efficient and Secured Applications",
 };
 
-// export async function generateStaticParams() {
-//   return [
-//     { lang: 'en' },
-//     { lang: 'gr' }
-//   ];
-// }
+export async function generateStaticParams() {
+  return [
+    { lang: 'en' },
+    { lang: 'gr' }
+  ];
+}
 
 export default async function RootLayout({
   children,
@@ -35,7 +35,7 @@ export default async function RootLayout({
   const {lang} = await params
 
   return (
-    <html lang={lang}>
+    <html lang={lang || "en"}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
