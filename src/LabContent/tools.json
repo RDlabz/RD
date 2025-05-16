@@ -1,0 +1,110 @@
+[
+    {
+        "name": "React",
+        "image": "https://imgs.search.brave.com/Mjqb43tujeY0gZZUCJV5hqXW2R72a6hDoyDoP8uMaGw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzQ3L1JlYWN0LnN2/Zw",
+        "link": "https://react.dev/",
+        "keywords": ["Front-End", "Framework"]
+    },
+    {
+        "name": "Javascript",
+        "image": "https://imgs.search.brave.com/hal1PgQLBcgo3zcQQYtiz_ydmTsNkJXQp0CWmPklOc4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9qYXZhc2Ny/aXB0LWpzLWljb24t/NTEyeDUxMi1xM2ln/d2xuNi5wbmc",
+        "link": "https://www.javascript.com/",
+        "keywords": ["Front-End", "Programming Language"]
+    },
+    {
+        "name": "Angular",
+        "image": "https://imgs.search.brave.com/Q7aY04sRFp92t-jlv7-Ew0JHYgvqyJXSuD6oXaUkUsI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2NmL0FuZ3VsYXJf/ZnVsbF9jb2xvcl9s/b2dvLnN2Zw",
+        "link": "https://angular.dev/",
+        "keywords": ["Front-End", "Framework"]
+    },
+    {
+        "name": "Typescript",
+        "image": "https://imgs.search.brave.com/b1mza9u8ePJdo9VHfx00bmjzGwVI_b7cLPA1ONSjIL0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzRjL1R5cGVzY3Jp/cHRfbG9nb18yMDIw/LnN2Zw",
+        "link": "https://www.typescriptlang.org/",
+        "keywords": ["Front-End", "Programming Language"]
+    },
+    {
+        "name": "Nodejs",
+        "image": "https://imgs.search.brave.com/QPF38ka4pQ6Uo07ALpvHDZE_DBjv8Z8DjbX7SKSOOn0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2xl/dW5nd2Vuc2VuL3N2/Zy1pY29uL21hc3Rl/ci9kaXN0L3N2Zy9s/b2dvcy9ub2RlanMt/aWNvbi5zdmc",
+        "link": "https://nodejs.org/en",
+        "keywords": ["Environment"]
+    },
+    {
+        "name": "HTML",
+        "image": "https://imgs.search.brave.com/-A7DMn2sD4NJtodxwkO-SQM6qd5-pMzItJulgw-SvIQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9odG1sLTEuc3Zn",
+        "link": "https://html.com/",
+        "keywords": ["Markup Language", "Front-End"]
+    },
+    {
+        "name": "XML",
+        "image": "https://imgs.search.brave.com/iRa5y_-PBLXplKAtp-YbN567UjGzZcNAXrdlSDapaSc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC94bWwtMDIt/aWNvbi05Mjl4MTAy/NC12amphM2NkdC5w/bmc",
+        "link": "https://www.w3.org/XML/",
+        "keywords": ["Markup Language"]
+    },
+    {
+        "name": "FastAPI",
+        "image": "https://imgs.search.brave.com/bntF6Zso0YzhcVWJvRYhdd-WOiWyaTdcRO_p_ME8GzM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9mYXN0YXBpLTEu/c3Zn",
+        "link": "https://fastapi.tiangolo.com/",
+        "keywords": ["Back-End", "Framework"]
+    },
+    {
+        "name": "Python",
+        "image": "https://imgs.search.brave.com/Gc4o0TZByHDXOrUog0t60tOvt-BmVp3pOLjo8FdPnCM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MTUyZmNlZjEw/MTRjMGI1ZTQ5Njcu/cG5n",
+        "link": "https://www.python.org/",
+        "keywords": ["Back-End", "Programming Language"]
+    },
+    {
+        "name": "Cytoscape",
+        "image": "https://imgs.search.brave.com/QDF3HdCgGpyfuYw_WobaapNCNmPTnGgRhY-jXX3i-So/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jeXRv/c2NhcGUub3JnL2lt/YWdlcy9sb2dvL2N5/M2xvZ29PcmFuZ2Uu/c3Zn",
+        "link": "https://cytoscape.org/",
+        "keywords": ["Tool"]
+    },
+    {
+        "name": "Android Studio",
+        "image": "https://imgs.search.brave.com/EuZUZ5Y0ZTr-hanJUbdTgr-QzPNyrDD_JL1LU5V9YTQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2MxL0FuZHJvaWRf/U3R1ZGlvX2ljb25f/KDIwMjMpLnN2Zw",
+        "link": "https://developer.android.com/studio",
+        "keywords": ["Tool"]
+    },
+    {
+        "name": "SpringBoot",
+        "image": "https://imgs.search.brave.com/PDsYeYpj9PoR7JEEwYnPSpBaWH5G9tPRYajJt4C-Yw4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/Lzc5L1NwcmluZ19C/b290LnN2Zw",
+        "link": "https://spring.io/projects/spring-boot",
+        "keywords": ["Back-End", "Framework"]
+    },
+    {
+        "name": "Java",
+        "image": "https://imgs.search.brave.com/7fWL_xYWat7R6dmjIixtrFGpMcUQPMQtQG87EMy-m1Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/MTgxX0phdmFfbG9n/b19sb2dvcy01MTIu/cG5n",
+        "link": "https://www.java.com/en/",
+        "keywords": ["Back-End", "Programming Language"]
+    },
+    {
+        "name": "C Lang",
+        "image": "https://imgs.search.brave.com/hlJLlUrLwzhpgfcIGN6vE9eNlJsA4TAPtoEGQNUY0e4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzE4L0NfUHJvZ3Jh/bW1pbmdfTGFuZ3Vh/Z2Uuc3Zn",
+        "link": "https://www.learn-c.org/",
+        "keywords": ["Programming Language"]
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "https://imgs.search.brave.com/cRYMDz-JxHAkAACLKH8kktAvcA23WhZnFBlLKEp51Qk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG9zdGdyZXNxbC5v/cmcvbWVkaWEvaW1n/L2Fib3V0L3ByZXNz/L2VsZXBoYW50LnBu/Zw",
+        "link": "https://www.postgresql.org/",
+        "keywords": ["Databases"]
+    },
+    {
+        "name": "Linux",
+        "image": "https://imgs.search.brave.com/wkSUNE8YZtnA18ElGPBGXtR5o5-eZf_BgUYuCjnGG2Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGludXhhbmR1YnVu/dHUuY29tL2NvbnRl/bnQvaW1hZ2VzL3dv/cmRwcmVzcy8yMDE5/LzA3L2xpbnV4LW1h/c2NvdC5wbmc_dz0x/Mjk1JnNzbD0x",
+        "link": "https://www.linux.org/",
+        "keywords": ["Systems"]
+    },
+    {
+        "name": "CSS",
+        "image": "https://imgs.search.brave.com/mglfu_675N11DBczte8uXHVrAVagq0a0CAXTFbHbdwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTIuZGV2LnRvL2R5/bmFtaWMvaW1hZ2Uv/d2lkdGg9ODAwLGhl/aWdodD0sZml0PXNj/YWxlLWRvd24sZ3Jh/dml0eT1hdXRvLGZv/cm1hdD1hdXRvL2h0/dHBzOi8vZGV2LXRv/LXVwbG9hZHMuczMu/YW1hem9uYXdzLmNv/bS91cGxvYWRzL2Fy/dGljbGVzLzdqMzUz/djh4ZTFoODYxdWM1/aTUzLnBuZw",
+        "link": "https://drafts.csswg.org/",
+        "keywords": ["Stylesheet Language", "Front-End"]
+    },
+    {
+        "name": "R Lang",
+        "image": "https://imgs.search.brave.com/UE7zgmmhwTWBD6WSgVTVAeEvVSfmrJOBcvRjnz0gSdI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFiL1JfbG9nby5z/dmc",
+        "link": "https://www.r-project.org/",
+        "keywords": ["Data Analysis", "Statistics", "Programming Language"]
+    }
+]
