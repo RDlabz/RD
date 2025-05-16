@@ -6,7 +6,7 @@
   --primary: #5f0404;
 
   --title: 32px;
-  --nav: 30px;
+  --nav: 28px;
   --body: 20px;
   --small: 14px;
 }
@@ -23,4 +23,58 @@ body {
   color: var(--foreground);
   font-family: Inter, sans-serif;
   font-size: var(--body);
+}
+
+h1, h2, p, small {
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+h1 {
+  font-size: var(--title);
+}
+
+h2 {
+  font-size: var(--nav);
+}
+
+p {
+  font-size: var(--body);
+}
+
+small {
+  font-size: var(--small);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar:hover {
+  width: 12px;
+}
+
+
+::-webkit-scrollbar-track-piece{
+  background: var(--background); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary); 
+  height: 300px;
+  cursor: grab;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
 }
