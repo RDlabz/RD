@@ -4,9 +4,7 @@
         "card": {
             "name": "Ardi Stringa",
             "age": "21 y/o",
-            "titles": "Web Dev, Student",
-            "my_hobbies": "My Hobbies:",
-            "hobbies": ["Hacking", "Game Developent", "Reading", "Riddles Solving/Brainteasers"],
+            "titles": "Full-Stack, Game Dev, Cyber Security",
             "arch": "I use Arch, btw.",
             "button": "Flip Card",
             "photo": "No Photo Yet."
@@ -14,9 +12,7 @@
 
         "greeting": [
             "Welcome to my laboratory!",
-            "This is my personal website which also serves as my portfolio.", 
-            "Furthermore, it serves as an effective means of monitoring my growth across various areas. For example, every time I learn a new language, I'll add it here.",
-            "In this page, you'll read about my work experience, tools that I'm proficient with. In my info card, there are link that may be of use."
+            "This is my personal website which also serves as my portfolio. Furthermore, it serves as an effective means of monitoring my growth across various areas. For example, every time I learn a new language, I'll add it here. In this page, you'll read about my work experience, tools that I'm proficient with. In my info card, there are link that may be of use."
         ],
 
         "tools": "The Tools I Use",
