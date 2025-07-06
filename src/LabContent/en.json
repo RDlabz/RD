@@ -47,7 +47,7 @@
             {
                 "title": "RDlabs",
                 "abstract": "This website right here",
-                "color": "#FF0000",
+                "color": "#FF000055",
                 "link": "https://github.com/Dr-Ardi",
                 "description": [
                     "First and foremost, let's talk about RDlab, the very website you are currently exploring. This website began as a school project, initially consisting of several HTML pages, a CSS file, and a bit of JavaScript. It was a simple project with a few issues, but it served as my introduction to web development. Not too long ago, I decided to revamp the website using React. My motivation for this update stemmed from my desire to learn and master React, a popular JavaScript library for building user interfaces. Prior to this, I had no experience with React, but I was eager to expand my knowledge and enhance my front-end development skills. I've already explained the purpose of creating this website, so there's not much more to add here. However, I am proud of the progress I've made and the improvements implemented."
@@ -56,7 +56,7 @@
             {
                 "title": "Good Pizza Great Pizza",
                 "abstract": "A Mock Pizzeria Web App",
-                "color": "#ff8700",
+                "color": "#ff870055",
                 "link": "https://github.com/Dr-Ardi/GoodPizzaGreatPizza",
                 "description": [
                     "Secondly, I developed a mock Pizzeria web application. This project was particularly exciting because it involved creating a fully functional web app that mimics the operations of a pizzeria. The concept is straightforward: users can scan a QR code, which directs them to the website. Once there, they can perform various actions typical of a pizzeria experience, such as placing orders, calling the waiter, and more, all through their device. For the front-end, I used Angular, a powerful framework for building dynamic web applications. The back-end was developed using Spring Boot, a Java-based framework, and PostgreSQL was utilized for the database. The primary objective of this project was to gain hands-on experience with Angular, Spring Boot, and full-stack development. It provided me with valuable insights into how these technologies work together to create seamless, interactive web applications. You can find the files and detailed documentation of this project on my GitHub."
@@ -65,7 +65,7 @@
             {
                 "title": "WAFfle",
                 "abstract": "A Simple Web Application Firewall",
-                "color": "#51d2ec",
+                "color": "#51d2ec55",
                 "link": "https://github.com/Dr-Ardi/WAFfle",
                 "description": [
                     "As part of my Information Security class, I developed a simple web application firewall, or WAF, named WAFfle. This project was created using Python, with Flask handling the HTML pages for testing WAFfle's functionality. Despite its simplicity, WAFfle provides basic protection against common attacks such as DOS and SQL injection. The firewall includes a control panel where administrators can view allowed and denied requests, along with other pertinent information."
@@ -74,7 +74,7 @@
             {
                 "title": "ThessVivlio",
                 "abstract": "Library Mobile App",
-                "color": "#ede381",
+                "color": "#ede38155",
                 "link": "https://github.com/Dr-Ardi/ThessVivlio",
                 "description": [
                     "One of my significant projects is the development of a mobile application named ThessVivlio, created for a university course. The name combines \"Thess,\" referring to Thessaloniki, with the Greek words “Θες” (Thes), meaning \"want,\" and \"Βιβλίο\" (Vivlio), meaning \"book,\". ThessVivlio was developed using Android Studio and the Java programming language. For database management, I utilized the Room API and Firestore. The Room API provides an abstraction layer over SQLite, simplifying database operations, while Firestore offers robust real-time data synchronization and offline support. The app includes all essential library functionalities: users can browse a vast collection of books, search for specific titles or authors, manage book loans, view book details, check availability, and reserve books. Additionally, it features user account management, borrowing history, and notifications for due dates and new arrivals."
@@ -83,7 +83,7 @@
             {
                 "title": "Arthur",
                 "abstract": "Personal AI Voice Assistant",
-                "color": "#51ecb9",
+                "color": "#51ecb955",
                 "link": "https://github.com/Dr-Ardi",
                 "description": [
                     "In addition, I embarked on a project to create a voice assistant using Python. This project is still in its early stages, so there isn't much to showcase at the moment. However, the goal is to develop a functional voice assistant capable of performing various tasks based on voice commands. This project is particularly interesting because it combines aspects of artificial intelligence and natural language processing, and I am eager to see how it evolves as I continue to work on it."
