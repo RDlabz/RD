@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import "@/styles/globals.css";
 import Header from "@/components/Header";
+import LoadingScreen from "@/components/LoadingScreen";
 
 const spaceMono = Space_Mono({
    subsets: ['latin'],
@@ -26,6 +27,7 @@ export default async function RootLayout({
       <body
         className={`${spaceMono.variable} antialiased rd-background`}
       >
+        <LoadingScreen />
         <Header />
         {children}
       </body>
