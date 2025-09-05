@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   description: "Slick, Efficient and Secured Applications",
   keywords: ["Labs", "Dev", "Games", "Cyber Security", "Applications"],
   themeColor: "#5f0404",
-  icons: {
-    // icon: "/favicon.ico",
-    shortcut: "/rdlabs.png",
-    apple: "/rdlabs.png",
-  },
+  // icons: {
+  //   icon: "/favicon.ico",
+  //   shortcut: "/rdlabs.png",
+  //   apple: "/rdlabs.png",
+  // },
   openGraph: {
     title: "RDLabs",
     description: "Slick, Efficient and Secured Applications",
