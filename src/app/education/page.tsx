@@ -7,7 +7,7 @@ export default function App() {
   return (
     <main>
       {edu.uni.map((uni, ind) => (
-        <p key={"uni_"+ind} style={{textAlign: "justify", margin: "5px 0px", fontSize: !ind ? "var(--nav)" : "inherit"}}>{uni}</p>
+        <p key={"uni_"+ind} className="text-justify my-1" style={{fontSize: !ind ? "var(--nav)" : "inherit"}}>{uni}</p>
       ))}
     </main>
   );

@@ -12,7 +12,6 @@ export default function App() {
 
   const selectProject = (project: any) => {
     setSelectedProject(project)
-
   }
 
   const handleMouseLeave = () => {
@@ -22,7 +21,7 @@ export default function App() {
   return (
     <main>
       <h1>{projects.title}</h1>
-      <div style={{display: "flex", flexWrap: "wrap", gap: "5px", justifyContent: "space-evenly", width: "100%"}}>
+      <div className="flex flex-wrap gap-1 justify-evenly w-full">
         {projects.projects.map((project) => (
           <ProjectCard 
             key={project.title} project={project} 

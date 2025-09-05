@@ -17,10 +17,10 @@ export default function ProjectCard({
             {
                 (hoverredProject === project.title) ?
                 <div className='card-content' style={{backgroundColor: project.color}} onClick={() => selectProject(project)}>
-                    <p style={{textAlign: "center", color: "var(--background)"}}>{project.abstract}</p>
+                    <p className='text-center text-rd-blue'>{project.abstract}</p>
                 </div>
                 :
-                <h2 style={{width: "200px", textAlign: "center"}}>{project.title}</h2>
+                <h2 className='w-52 text-center'>{project.title}</h2>
             }
         </div>
     )
