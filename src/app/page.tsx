@@ -7,13 +7,15 @@ export default function App() {
 
   return (
     <main>
-      <h2>{home.card.name}</h2>
-      <p style={{marginBottom: "5px"}}>{home.card.titles}</p>
-      <div style={{width: "100%", height: "1px", background: "var(--foreground)", margin: "5px 0px"}}></div>
+      <h2 className="mb-1">{home.card.titles}</h2>
+      <div className="w-full h-px my-1 bg-rd-white"></div>
       {home.greeting.map((greet, ind) => (
-        <p key={"greeting_"+ind} style={{textAlign: "justify", margin: "5px 0px"}}>{greet}</p>
+        !ind ? 
+          <h3 key={"greet_"+ind} className="text-justify my-1">{greet}</h3>
+          :
+          <p key={"greet_"+ind} className="text-justify my-1">{greet}</p>
       ))}
-      <small style={{marginTop: "50px"}}>This website is still under heavy constraction</small>
+      <small className="mt-12">This website is still under heavy constraction</small>
     </main>
   );
 }

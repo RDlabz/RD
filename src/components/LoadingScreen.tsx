@@ -1,9 +1,9 @@
 export default function LoadingScreen() {
     return (
-        <div style={{height: "100%", width: "100%", position: "absolute", zIndex: "999", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
-            <h1>ELEGANT</h1>
-            <h1>EFFICIENT</h1>
-            <h1>SECURED</h1>
+        <div className="h-full w-full absolute z-50 flex flex-col justify-center items-center font-rd-terminal">
+            <h2>ELEGANT</h2>
+            <h2>EFFICIENT</h2>
+            <h2>SECURED</h2>
         </div>
     )
 }

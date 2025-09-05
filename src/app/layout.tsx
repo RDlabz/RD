@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import Header from "@/components/Header";
+import LoadingScreen from "@/components/LoadingScreen";
 import { VT323, Share_Tech_Mono, Inconsolata } from "next/font/google";
 
 const pixel = VT323({

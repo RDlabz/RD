@@ -18,6 +18,7 @@ module.exports = {
       fontSize: {
         'rd-title': 'var(--title)',
         'rd-nav': 'var(--nav)',
+        'rd-sub': 'var(--sub-nav)',
         'rd-body': 'var(--body)',
         'rd-small': 'var(--small)',
       },
