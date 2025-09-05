@@ -23,7 +23,8 @@ module.exports = {
       },
       fontFamily: {
         'rd-pixel': ['var(--rd-pixel)', 'monospace'],
-        'rd-terminal': ['var(--rd-terminal)', 'monospace']
+        'rd-terminal': ['var(--rd-terminal)', 'monospace'],
+        'rd-text': ['var(--rd-text)', 'monospace'],
       }
     }
   },

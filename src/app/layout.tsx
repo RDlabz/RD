@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import Header from "@/components/Header";
 import { VT323 } from "next/font/google";
 import { Share_Tech_Mono } from "next/font/google";
+import { Overpass_Mono, JetBrains_Mono, Source_Code_Pro, Inconsolata, Fira_Code } from "next/font/google";
 
 const pixel = VT323({
   subsets: ["latin"],
@@ -14,6 +15,12 @@ const tech = Share_Tech_Mono({
   subsets: ["latin"],
   weight: "400",
   variable: "--rd-terminal"
+});
+
+const body = Inconsolata({
+  subsets: ["latin"],
+  weight: "500",
+  variable: "--rd-text"
 });
 
 export const metadata: Metadata = {
@@ -30,7 +37,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${pixel.variable} ${tech.variable} antialiased bg-rd-blue`}
+        className={`${pixel.variable} ${tech.variable} ${body.variable} antialiased bg-rd-blue`}
       >
         {/* <LoadingScreen /> */}
         <Header />

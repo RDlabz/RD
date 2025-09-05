@@ -8,16 +8,15 @@
   --primary: #5f0404;
 
   --title: 2.5em;
-  --nav: 28px;
-  --body: 20px;
-  --small: 14px;
+  --nav: 2em;
+  --sub-nav: 1.4em;
+  --body: 1.2em;
+  --small: 1em;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 *::selection {
@@ -27,7 +26,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Inter, sans-serif;
+  font-family: var(--rd-text), sans-serif;
   font-size: var(--body);
 }
 
@@ -50,6 +49,10 @@ h1 {
 
 h2 {
   font-size: var(--nav);
+}
+
+h3 {
+  font-size: var(--sub-nav);
 }
 
 p {
