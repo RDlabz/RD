@@ -35,12 +35,12 @@ export const metadata: Metadata = {
   // },
   openGraph: {
     title: "RDLabs",
-    description: "1Slick, Efficient and Secured Applications",
+    description: "Slick, Efficient and Secured Applications",
     url: "https://rdlabz.github.io/RD/",
     type: "website",
     images: [
       {
-        url: "/src/app/favicon.ico",
+        url: "/rdlabs.png",
         width: 1200,
         height: 1200,
         alt: "RDLabs",
