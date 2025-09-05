@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   description: "Slick, Efficient and Secured Applications",
   keywords: ["Labs", "Dev", "Games", "Cyber Security", "Applications"],
   themeColor: "#5f0404",
-  // icons: {
-  //   icon: "/favicon.ico",
-  //   shortcut: "/shortcut-icon.png",
-  //   apple: "/apple-touch-icon.png",
-  // },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/rdlabs.png",
+    apple: "/rdlabs.png",
+  },
   openGraph: {
     title: "RDLabs",
     description: "Slick, Efficient and Secured Applications",
@@ -47,14 +47,13 @@ export const metadata: Metadata = {
       },
     ],
   },
-  // // Twitter card
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "Twitter Title",
-  //   description: "Twitter Description",
-  //   images: ["/twitter-image.png"],
-  //   site: "@twitterhandle",
-  // },
+  twitter: {
+    card: "summary_large_image",
+    title: "RDLabs",
+    description: "Slick, Efficient and Secured Applications",
+    images: ["/rdlabs.png"],
+    site: "@twitterhandle",
+  },
 };
 
 export default async function RootLayout({
