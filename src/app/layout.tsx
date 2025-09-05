@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/favicon.ico",
+        url: "@/app/favicon.ico",
         width: 600,
         height: 600,
         alt: "RDLabs",
