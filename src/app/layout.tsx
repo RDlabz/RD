@@ -24,7 +24,37 @@ const body = Inconsolata({
 
 export const metadata: Metadata = {
   title: "RDLabs",
+  creator: "Ardi Stringa",
   description: "Slick, Efficient and Secured Applications",
+  keywords: ["Labs", "Dev", "Games", "Cyber Security", "Applications"],
+  themeColor: "#5f0404",
+  // icons: {
+  //   icon: "/favicon.ico",
+  //   shortcut: "/shortcut-icon.png",
+  //   apple: "/apple-touch-icon.png",
+  // },
+  openGraph: {
+    title: "RDLabs",
+    description: "Slick, Efficient and Secured Applications",
+    url: "https://rdlabz.github.io/RD/",
+    type: "website",
+    images: [
+      {
+        url: "/favicon.png",
+        width: 600,
+        height: 600,
+        alt: "RDLabs",
+      },
+    ],
+  },
+  // // Twitter card
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Twitter Title",
+  //   description: "Twitter Description",
+  //   images: ["/twitter-image.png"],
+  //   site: "@twitterhandle",
+  // },
 };
 
 export default async function RootLayout({
