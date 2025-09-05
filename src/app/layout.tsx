@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Space_Mono } from "next/font/google";
 import "@/styles/globals.css";
-import "../styles/globals.css";
 import Header from "@/components/Header";
-import LoadingScreen from "@/components/LoadingScreen";
+import { VT323 } from "next/font/google";
+import { Share_Tech_Mono } from "next/font/google";
 
-const spaceMono = Space_Mono({
-   subsets: ['latin'],
-  weight: ['400', '700'], 
-  variable: '--font-space-mono', 
-  display: 'swap',
+const pixel = VT323({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--rd-pixel"
+});
+
+const tech = Share_Tech_Mono({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--rd-terminal"
 });
 
 export const metadata: Metadata = {
@@ -26,9 +30,9 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceMono.variable} antialiased rd-background`}
+        className={`${pixel.variable} ${tech.variable} antialiased bg-rd-blue`}
       >
-        <LoadingScreen />
+        {/* <LoadingScreen /> */}
         <Header />
         {children}
       </body>

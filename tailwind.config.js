@@ -9,7 +9,23 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'rd-blue': 'var(--background)',
+        'rd-white': 'var(--foreground)', 
+        'rd-primary': 'var(--primary)'
+      },
+      fontSize: {
+        'rd-title': 'var(--title)',
+        'rd-nav': 'var(--nav)',
+        'rd-body': 'var(--body)',
+        'rd-small': 'var(--small)',
+      },
+      fontFamily: {
+        'rd-pixel': ['var(--rd-pixel)', 'monospace'],
+        'rd-terminal': ['var(--rd-terminal)', 'monospace']
+      }
+    }
   },
   plugins: [],
 }
