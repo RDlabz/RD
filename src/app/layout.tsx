@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import Header from "@/components/Header";
-import { VT323 } from "next/font/google";
-import { Share_Tech_Mono } from "next/font/google";
-import { Overpass_Mono, JetBrains_Mono, Source_Code_Pro, Inconsolata, Fira_Code } from "next/font/google";
+import { VT323, Share_Tech_Mono, Inconsolata } from "next/font/google";
 
 const pixel = VT323({
   subsets: ["latin"],
