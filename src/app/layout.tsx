@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   keywords: ["Labs", "Dev", "Games", "Cyber Security", "Applications"],
   themeColor: "#5f0404",
   icons: {
-    icon: "/favicon.ico",
+    // icon: "/favicon.ico",
     shortcut: "/rdlabs.png",
     apple: "/rdlabs.png",
   },
