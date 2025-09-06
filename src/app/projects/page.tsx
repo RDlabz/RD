@@ -19,7 +19,7 @@ export default function App() {
       </div>
       {
         selectedProject ? 
-          <section>
+          <section id="projectDescription">
             <a 
               className="text-rd-sub"
               href={selectedProject.link}
