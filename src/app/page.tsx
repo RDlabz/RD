@@ -1,7 +1,9 @@
 'use client'
 import en from "@/LabContent/en.json"
 
-export default function App({home = en.home}: {home: typeof en.home}) {
+const home = en.home
+
+export default function App() {
   return (
     <section>
       <h2 className="mb-1">{home.card.titles}</h2>

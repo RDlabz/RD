@@ -3,7 +3,9 @@ import { useState } from 'react';
 import ProjectCard from '@/components/ProjectCard';
 import en from '@/LabContent/en.json'
 
-export default function App({projects = en.projects}: {projects: typeof en.projects}) {
+const projects = en.projects
+
+export default function App() {
 
   const [selectedProject, setSelectedProject] = useState<any>({})
 
