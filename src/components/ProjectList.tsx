@@ -43,8 +43,8 @@ export default function ProjectList({
     }, []);
 
     return (
-        <div className="relative overflow-hidden m-[-20px]">
-            <div ref={scrollRef} className="x-list w-full py-5 px-[20px]">
+        <div className="relative overflow-hidden m-[-20px] py-10">
+            <div ref={scrollRef} className="x-list w-full px-[20px]">
             {projects.map((project) => (
                 <ProjectCard key={project.title} project={project} selectProject={setSelectedProject} />
             ))}

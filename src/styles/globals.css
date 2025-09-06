@@ -82,6 +82,26 @@ small {
   font-size: var(--small);
 }
 
+button {
+  transition: 200ms ease-in-out;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+nav {
+  padding: 8px 1dvw;
+}
+
+#navbar {
+  display: flex;
+}
+
+#short-navbar {
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -118,5 +138,19 @@ a {
 @media (max-width: 1050px) {
   main {
     padding: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    padding: 8px 2dvw;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #short-navbar {
+    display: block;
   }
 }
