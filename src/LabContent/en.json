@@ -11,8 +11,8 @@
         },
 
         "greeting": [
-            "Welcome to my laboratory!",
-            "This is my personal website which also serves as my portfolio. Furthermore, it serves as an effective means of monitoring my growth across various areas. For example, every time I learn a new language, I'll add it here. In this page, you'll read about my work experience, tools that I'm proficient with. In my info card, there are link that may be of use."
+            "Welcome to my Laboratory!",
+            "This is my personal website which also serves as my portfolio. Furthermore, it serves as an effective means of monitoring my growth across various areas. For example, every time I learn a new language, I'll add it here. In this page, you'll read about my work experience, tools that I'm proficient with and more. For more info about me, my personality, interests, etc, click on the website logo (top-left)."
         ],
 
         "tools": "The Tools I Use",
@@ -46,7 +46,7 @@
         "projects": [
             {
                 "icon": "app-window",
-                "title": "RDlabs",
+                "title": "RDLabs",
                 "abstract": "This website right here",
                 "color": "#FF0000",
                 "link": "https://github.com/Dr-Ardi",
@@ -61,13 +61,13 @@
                 "color": "#ff8700",
                 "link": "https://github.com/Dr-Ardi/GoodPizzaGreatPizza",
                 "description": [
-                    "Secondly, I developed a mock Pizzeria web application. This project was particularly exciting because it involved creating a fully functional web app that mimics the operations of a pizzeria. The concept is straightforward: users can scan a QR code, which directs them to the website. Once there, they can perform various actions typical of a pizzeria experience, such as placing orders, calling the waiter, and more, all through their device. For the front-end, I used Angular, a powerful framework for building dynamic web applications. The back-end was developed using Spring Boot, a Java-based framework, and PostgreSQL was utilized for the database. The primary objective of this project was to gain hands-on experience with Angular, Spring Boot, and full-stack development. It provided me with valuable insights into how these technologies work together to create seamless, interactive web applications. You can find the files and detailed documentation of this project on my GitHub."
+                    "This is a mock Pizzeria web application. (Yes, the title is based off of the game). This project was particularly exciting because it involved creating a fully functional web app that mimics the operations of a pizzeria. The concept is straightforward: users can scan a QR code, which directs them to the website. Once there, they can perform various actions typical of a pizzeria experience, such as placing orders, calling the waiter, and more, all through their device. For the front-end, I used Angular, a powerful framework for building dynamic web applications. The back-end was developed using Spring Boot, a Java-based framework, and PostgreSQL was utilized for the database. The primary objective of this project was to gain hands-on experience with Angular, Spring Boot, and full-stack development. It provided me with valuable insights into how these technologies work together to create seamless, interactive web applications. You can find the files and detailed documentation of this project on my GitHub."
                 ]
             },
             {
                 "icon": "brick-wall-fire",
                 "title": "WAFfle",
-                "abstract": "Simple Web-App Firewall",
+                "abstract": "A Simple Web-App Firewall",
                 "color": "#51d2ec",
                 "link": "https://github.com/Dr-Ardi/WAFfle",
                 "description": [
