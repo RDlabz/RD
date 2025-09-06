@@ -34,7 +34,7 @@ export default function Header() {
         <nav className="w-full h-16 flex justify-between items-center py-2 px-[1dvw] backdrop-brightness-75 backdrop-blur-[30px]">
             <p className="text-rd-title font-rd-pixel">{title}<span className="text-rd-primary">{lastLetter}</span></p>
             <div className="flex gap-x-[1dvw] font-rd-terminal text-rd-sub">
-                <a onClick={() => {router.push("/")}}>Home</a>
+                <a onClick={() => {router.push("/.")}}>Home</a>
                 <a onClick={() => {router.push("/education")}}>Education</a>
                 <a onClick={() => {router.push("/projects")}}>Projects</a>
             </div>
