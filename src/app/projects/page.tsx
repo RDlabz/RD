@@ -3,21 +3,16 @@ import { useState } from 'react';
 import ProjectCard from '@/components/ProjectCard';
 import en from '@/LabContent/en.json'
 
-export default function App() {
+export default function App({projects = en.projects}: {projects: typeof en.projects}) {
 
-  const projects = en.projects
   const [selectedProject, setSelectedProject] = useState<any>({})
-
-  const selectProject = (project: any) => {
-    setSelectedProject(project)
-  }
 
   return (
     <>
       <h2>{projects.title}</h2>
       <div className="flex flex-wrap gap-2 justify-evenly w-full py-5">
         {projects.projects.map((project) => (
-          <ProjectCard key={project.title} project={project} selectProject={selectProject} />
+          <ProjectCard key={project.title} project={project} selectProject={setSelectedProject} />
         ))}
       </div>
       {
