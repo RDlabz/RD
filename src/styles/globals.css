@@ -24,6 +24,20 @@
     border: 2px solid var(--foreground);
     border-radius: 0.75rem;
   }
+  .x-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+    column-gap: 1.25rem;
+    
+    /* Firefox */
+    scrollbar-width: none;
+
+    /* Chrome, Edge, Safari */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
 }
 
 *::selection {
@@ -99,4 +113,10 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   border-radius: 10px;
+}
+
+@media (max-width: 1050px) {
+  main {
+    padding: 20px;
+  }
 }
