@@ -6,7 +6,7 @@ export default function App() {
   const home = en.home
 
   return (
-    <main>
+    <section>
       <h2 className="mb-1">{home.card.titles}</h2>
       <div className="w-full h-px my-1 bg-rd-white"></div>
       {home.greeting.map((greet, ind) => (
@@ -15,7 +15,7 @@ export default function App() {
           :
           <p key={"greet_"+ind} className="text-justify my-1">{greet}</p>
       ))}
-      <small className="mt-12">This website is still under heavy constraction</small>
-    </main>
+      <p className="w-full text-center mt-12 text-rd-small">This website is still under heavy constraction</p>
+    </section>
   );
 }

@@ -69,7 +69,9 @@ export default async function RootLayout({
       >
         {/* <LoadingScreen /> */}
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );

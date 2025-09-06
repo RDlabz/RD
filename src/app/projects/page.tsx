@@ -1,7 +1,7 @@
 'use client'
+import { useState } from 'react';
 import ProjectCard from '@/components/ProjectCard';
 import en from '@/LabContent/en.json'
-import { useState } from 'react';
 
 export default function App() {
 
@@ -13,18 +13,16 @@ export default function App() {
   }
 
   return (
-    <main>
-      <h1>{projects.title}</h1>
+    <>
+      <h2>{projects.title}</h2>
       <div className="flex flex-wrap gap-2 justify-evenly w-full py-5">
         {projects.projects.map((project) => (
-          <ProjectCard 
-            key={project.title} project={project} 
-            selectProject={selectProject} />
+          <ProjectCard key={project.title} project={project} selectProject={selectProject} />
         ))}
       </div>
       {
         selectedProject ? 
-          <div>
+          <section>
             <a 
               className="text-rd-sub"
               href={selectedProject.link}
@@ -34,10 +32,10 @@ export default function App() {
             {selectedProject.description && selectedProject.description.map((desc: string, indx: number) => (
               <p key={"project-desc" + indx}>{desc}</p>
             ))}
-          </div>
+          </section>
           :
           null
       }
-    </main>
+    </>
   );
 }

@@ -5,10 +5,10 @@ export default function App() {
 
   const edu = en.academics
   return (
-    <main>
+    <section>
       {edu.uni.map((uni, ind) => (
-        <p key={"uni_"+ind} className="text-justify my-1" style={{fontSize: !ind ? "var(--nav)" : "inherit"}}>{uni}</p>
+        <p key={"uni_"+ind} className={`text-justify my-1 ${!ind && "text-rd-nav w-full text-center"}`}>{uni}</p>
       ))}
-    </main>
+    </section>
   );
 }
