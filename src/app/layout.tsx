@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/rdlabs.png",
+        url: "https://rdlabz.github.io/RD/rdlabs.png",
         width: 1200,
         height: 1200,
         alt: "RDLabs",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "RDLabs",
     description: "Slick, Efficient and Secured Applications",
-    images: ["/rdlabs.png"],
+    images: ["https://rdlabz.github.io/RD/rdlabs.png"],
     site: "@twitterhandle",
   },
 };
