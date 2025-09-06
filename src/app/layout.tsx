@@ -29,9 +29,9 @@ export const metadata: Metadata = {
   keywords: ["Labs", "Dev", "Games", "Cyber Security", "Applications"],
   themeColor: "#5f0404",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/rdlabs.png",
-    apple: "/rdlabs.png",
+    icon: "/RD/favicon.ico",
+    shortcut: "/RD/rdlabs.png",
+    apple: "/RD/rdlabs.png",
   },
   openGraph: {
     title: "RDLabs",
