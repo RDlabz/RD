@@ -19,6 +19,13 @@
   --color-foreground: var(--foreground);
 }
 
+@layer components {
+  .button-border {
+    border: 2px solid var(--foreground);
+    border-radius: 0.75rem;
+  }
+}
+
 *::selection {
   background-color: var(--primary); 
 }
