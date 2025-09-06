@@ -21,6 +21,7 @@ export default function App({projects = en.projects}: {projects: typeof en.proje
             <a 
               className="text-rd-sub"
               href={selectedProject.link}
+              target="_blank"
               onMouseEnter={e => (e.currentTarget.style.color = selectedProject.color)}
               onMouseLeave={e => (e.currentTarget.style.color = "var(--foreround)")} 
             >{selectedProject.title}</a>
