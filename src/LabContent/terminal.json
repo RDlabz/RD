@@ -1,0 +1,55 @@
+{
+    "name": "Ardi Stringa",
+    "nickname": "RD",
+    "age": "21 y/o",
+    "studies": "Information and Electronic Engineering",
+    "work": "I am a self-employed Software Engineer",
+    "moto": "Slick, Efficient and Secured Applications",
+    "university": "International Hellenic University",
+    "favourite": {
+        "movies": [
+            "Truman Show",
+            "movie2",
+            "movie3",
+            "movie4",
+            "movie5",
+            "movie6",
+            "movie7",
+            "movie8",
+            "movie9",
+            "movie10"
+        ],
+        "series": [
+            "Doctor Who",
+            "series2",
+            "series3",
+            "series4",
+            "series5",
+            "series6",
+            "series7",
+            "series8",
+            "series9",
+            "series10"
+        ],
+        "anime": [
+            "One Piece",
+            "anime2",
+            "anime3",
+            "anime4",
+            "anime5",
+            "anime6",
+            "anime7",
+            "anime8",
+            "anime9",
+            "anime10"
+        ]
+    },
+    "tools": {
+        "frontend": "For Front-End development I use:",
+        "backend": "For Back-End development I use:",
+        "databases": "I am familiar with these database environments:",
+        "android": "For android app development I use these:",
+        "languages": "I know and use these Programming Languages:",
+        "frameworks": "I know and use these Frameworks:"
+    }
+}
