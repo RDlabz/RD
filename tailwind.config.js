@@ -26,7 +26,19 @@ module.exports = {
         'rd-pixel': ['var(--rd-pixel)', 'monospace'],
         'rd-terminal': ['var(--rd-terminal)', 'monospace'],
         'rd-text': ['var(--rd-text)', 'monospace'],
-      }
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 1s forwards",
+        fadeInDelay1: "fadeIn 1s forwards 0s",
+        fadeInDelay2: "fadeIn 1s forwards 1.2s",
+        fadeInDelay3: "fadeIn 1s forwards 2.4s",
+      },
     }
   },
   plugins: [],
