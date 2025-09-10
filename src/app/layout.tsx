@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   creator: "Ardi Stringa",
   description: "Slick, Efficient and Secured Applications",
   keywords: ["Labs", "Dev", "Games", "Cyber Security", "Applications"],
+  manifest: '/RD/manifest.json',
   themeColor: "#5f0404",
   icons: {
     icon: "/RD/favicon.ico",
