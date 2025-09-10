@@ -102,6 +102,10 @@ nav {
   display: none;
 }
 
+#nav-panel {
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -169,5 +173,9 @@ a {
 
   #short-navbar {
     display: block;
+  }
+
+  #nav-panel {
+    display: flex;
   }
 }
