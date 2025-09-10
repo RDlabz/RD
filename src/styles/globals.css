@@ -137,11 +137,20 @@ a {
 
 @media (max-width: 1050px) {
   main {
-    padding: 20px;
+    padding: 5%;
   }
 }
 
 @media (max-width: 700px) {
+
+  :root {
+    --title: 2.5em;
+    --nav: 1.8em;
+    --sub-nav: 1.2em;
+    --body: 1em;
+    --small: 0.8em;
+  }
+
   nav {
     padding: 8px 2dvw;
   }
