@@ -50,8 +50,8 @@ export default function ProjectList({
             ))}
             </div>
 
-            {showLeftFade && (<div className="absolute top-0 left-0 h-full w-5 pointer-events-none bg-gradient-to-r from-rd-primary to-transparent" />)}
-            {showRightFade && (<div className="absolute top-0 right-0 h-full w-5 pointer-events-none bg-gradient-to-l from-rd-primary to-transparent" />)}
+            {showLeftFade && (<div className="absolute top-0 left-0 h-full w-3 pointer-events-none bg-gradient-to-r from-rd-primary to-transparent" />)}
+            {showRightFade && (<div className="absolute top-0 right-0 h-full w-3 pointer-events-none bg-gradient-to-l from-rd-primary to-transparent" />)}
         </div>
     )
 }

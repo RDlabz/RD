@@ -32,7 +32,7 @@ export default function Header() {
     }, [])
 
     return (
-        <nav className="w-full h-16 flex justify-between items-center backdrop-brightness-75 backdrop-blur-[30px]">
+        <nav className="sticky top-0 w-full h-16 flex justify-between items-center backdrop-brightness-75 backdrop-blur-[30px]">
             <p className="text-rd-title font-rd-pixel cursor-pointer" title="Under Construction">{title}<span className="text-rd-primary">{lastLetter}</span></p>
             <div id="navbar" className="gap-x-[1dvw] font-rd-terminal text-rd-sub">
                 <a onClick={() => {router.push("/.")}}>Home</a>

@@ -151,6 +151,14 @@ a {
     --small: 0.8em;
   }
 
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  ::-webkit-scrollbar:hover {
+    width: 0;
+  }
+
   nav {
     padding: 8px 2dvw;
   }
