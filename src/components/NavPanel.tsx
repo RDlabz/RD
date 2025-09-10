@@ -29,8 +29,8 @@ export default function NavPanel({
         <div id="nav-panel" className="fixed inset-0 z-40 backdrop-blur-lg py-20 flex-col font-rd-terminal text-rd-nav justify-around items-center overflow-hidden">
             <Icon className="absolute top-5 right-5 cursor-pointer z-50 p-1" icon={`lucide:x`} width={40} height={40} onClick={() => toggle(false)} />
             <a className="w-1/2 text-center py-5" onClick={() => {router.push("/."); toggle(false)}}>Home</a>
-            <a className="w-1/2 text-center py-5" onClick={() => {router.push("/education"); toggle(false)}}>Education</a>
-            <a className="w-1/2 text-center py-5" onClick={() => {router.push("/projects"); toggle(false)}}>Projects</a>
+            <a className="w-1/2 text-center py-5" onClick={() => {router.push("/edu"); toggle(false)}}>Education</a>
+            <a className="w-1/2 text-center py-5" onClick={() => {router.push("/pro"); toggle(false)}}>Projects</a>
         </div>
     );
 }

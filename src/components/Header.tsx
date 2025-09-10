@@ -39,8 +39,8 @@ export default function Header() {
                 <p className="text-rd-title font-rd-pixel cursor-pointer" title="Under Construction">{title}<span className="text-rd-primary">{lastLetter}</span></p>
                 <div id="navbar" className="gap-x-[1dvw] font-rd-terminal text-rd-sub">
                     <a onClick={() => {router.push("/.")}}>Home</a>
-                    <a onClick={() => {router.push("/education")}}>Education</a>
-                    <a onClick={() => {router.push("/projects")}}>Projects</a>
+                    <a onClick={() => {router.push("/edu")}}>Education</a>
+                    <a onClick={() => {router.push("/pro")}}>Projects</a>
                 </div>
                 <button id="short-navbar" onClick={() => toggleNav(true)}>
                     <Icon icon="lucide:text-align-justify" width={32} height={32} />
