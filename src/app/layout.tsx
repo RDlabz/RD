@@ -68,12 +68,13 @@ export default async function RootLayout({
       <body
         className={`${pixel.variable} ${tech.variable} ${body.variable} antialiased bg-rd-blue`}
       >
-        {/* <Terminal /> */}
-        <LoadingScreen />
-        <Header />
-        <main>
-          {children}
-        </main>
+        <LoadingScreen>
+         {/* <Terminal /> */}
+          <Header />
+          <main>
+            {children}
+          </main>
+        </LoadingScreen>
       </body>
     </html>
   );
