@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import Header from "@/components/Header";
 import LoadingScreen from "@/components/LoadingScreen";
 import { VT323, Share_Tech_Mono, Inconsolata } from "next/font/google";
-import Window from "@/components/Window";
+import WindowManager from "@/components/WindowManager";
 
 const pixel = VT323({
   subsets: ["latin"],
@@ -70,12 +70,9 @@ export default async function RootLayout({
         className={`${pixel.variable} ${tech.variable} ${body.variable} antialiased bg-rd-base`}
       >
         <LoadingScreen>
-          <Window title="nav">
-            <Header />
-          </Window>
-          <main>
+          <WindowManager header={<Header />}>
             {children}
-          </main>
+          </WindowManager>
         </LoadingScreen>
       </body>
     </html>
