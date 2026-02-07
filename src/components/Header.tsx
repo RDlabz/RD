@@ -1,15 +1,15 @@
 'use client'
 
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import {Icon} from "@iconify/react";
-import NavPanel from './NavPanel';
 
 export default function Header() {
 
     const [title, updateTitle] = useState("");
     const [lastLetter, setLastLetter] = useState("");
-    const [isOpen, toggleNav] = useState<boolean>(false);
+
+    const pathname = usePathname();
 
     const websiteName = "RDLabs";
     let i = 0;
@@ -33,21 +33,31 @@ export default function Header() {
         typeIn();
     }, [])
 
-    return (
-        <>
-            <nav className="sticky top-0 w-full h-16 flex justify-between items-center backdrop-brightness-75 backdrop-blur-[30px]">
-                <p className="text-rd-title font-rd-pixel cursor-pointer" title="Under Construction">{title}<span className="text-rd-primary">{lastLetter}</span></p>
-                <div id="navbar" className="gap-x-[1dvw] font-rd-terminal text-rd-sub">
-                    <a onClick={() => {router.push("/.")}}>Home</a>
-                    <a onClick={() => {router.push("/edu")}}>Education</a>
-                    <a onClick={() => {router.push("/pro")}}>Projects</a>
-                </div>
-                <button id="short-navbar" onClick={() => toggleNav(true)}>
-                    <Icon icon="lucide:text-align-justify" width={32} height={32} />
-                </button>
-            </nav>
+    const icon = (content: ("home" | "edu" | "pro")) => {
+        if (content === "home")
+            return (pathname === "/" ? "material-symbols:home-rounded" : "material-symbols:home-outline-rounded")
+        else if (content === "edu")
+            return (pathname === "/edu" ? "material-symbols:school-rounded" : "material-symbols:school-outline-rounded")
+        else if (content === "pro")
+            return (pathname === "/pro" ? "material-symbols:account-tree-rounded" : "material-symbols:account-tree-outline-rounded")
+        else
+            return "material-symbols:square-outline-rounded"
+    }
 
-            <NavPanel isOpen={isOpen} toggle={toggleNav} />
-        </>
+    return (
+        <nav className="w-full h-16 flex justify-between items-center">
+            <p className="text-rd-title font-rd-pixel cursor-pointer" title="Under Construction">{title}<span className="text-rd-primary">{lastLetter}</span></p>
+            <div className="flex gap-x-[1dvw] font-rd-terminal text-rd-sub h-full">
+                <a className='h-full flex items-center' onClick={() => {router.push("/.")}}>
+                    <Icon icon={icon("home")} width={32} height={32} />
+                </a>
+                <a className='h-full flex items-center' onClick={() => {router.push("/edu")}}>
+                    <Icon icon={icon("edu")} width={32} height={32} />
+                </a>
+                <a className='h-full flex items-center' onClick={() => {router.push("/pro")}}>
+                    <Icon icon={icon("pro")} width={32} height={32} />
+                </a>
+            </div>
+        </nav>
     )
 } 
