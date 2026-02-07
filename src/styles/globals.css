@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #00121c;
-  --foreground: #b3bdd8;
-  --primary: #5f0404;
+  --background: #0b0c10;
+  --foreground: #c7ccd4;
+  --primary: #9f1d2d;
 
   --title: 2.5em;
   --nav: 2em;
@@ -91,19 +91,7 @@ button {
 }
 
 nav {
-  padding: 8px 1dvw;
-}
-
-#navbar {
-  display: flex;
-}
-
-#short-navbar {
-  display: none;
-}
-
-#nav-panel {
-  display: none;
+  padding: 0px 1dvw;
 }
 
 a {
@@ -164,18 +152,6 @@ a {
   }
 
   nav {
-    padding: 8px 2dvw;
-  }
-
-  #navbar {
-    display: none;
-  }
-
-  #short-navbar {
-    display: block;
-  }
-
-  #nav-panel {
-    display: flex;
+    padding: 0px 2dvw;
   }
 }

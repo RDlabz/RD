@@ -11,8 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'rd-blue': 'var(--background)',
-        'rd-white': 'var(--foreground)', 
+        'rd-base': 'var(--background)',
+        'rd-fg': 'var(--foreground)', 
         'rd-primary': 'var(--primary)'
       },
       fontSize: {
