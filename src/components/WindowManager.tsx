@@ -7,7 +7,7 @@ export default function WindowManager({
     header: React.ReactNode;
 }) {
     return (
-        <div id="WindowManager" className="relative h-screen w-screen grid grid-rows-[8%_90%] p-5 gap-5">
+        <div id="WindowManager" className="relative h-screen w-screen grid grid-rows-[8%_90%] wmp wmg">
             <Window title="Nav">{header}</Window>
             <main className="flex-grow">{children}</main>
         </div>
@@ -20,7 +20,7 @@ export function WindowGrid({
     children: React.ReactNode;
 }) {
     return (
-        <div className="size-full flex gap-5">{children}</div>
+        <div className="size-full flex wmg">{children}</div>
     )
 }
 
@@ -30,7 +30,7 @@ export function BodyWindow({
     children: React.ReactNode;
 }) {
     return (
-        <section className="bodygrid flex flex-1 h-full gap-5">
+        <section className="bodygrid flex flex-1 h-full wmg">
             {children}
         </section>
     )

@@ -17,7 +17,7 @@ export default function App() {
       <SideWindow>
         {tools && (
           <Window title="Tools" padding={"5px 5px"}>
-            <div className="sticky top-0 w-full flex justify-end items-center">
+            <div className="sticky top-0 w-full flex justify-end items-center bg-rd-base">
               <Icon icon="material-symbols:close" width={30} height={30} className="cursor-pointer" onClick={() => {showTools(false)}} />
             </div>
             <Tools />
