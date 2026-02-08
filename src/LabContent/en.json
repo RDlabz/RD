@@ -82,9 +82,7 @@
     },
 
     "projects":{
-
-        "title": "My Projects",
-        "intro": "Welcome to the section of my website where I provide brief descriptions of the various projects I have worked on. So far, I have completed three projects, each of which has helped me grow and develop my skills in different areas of software development. Here are the projects I've worked on:",
+        "intro": "This section of my website features concise overviews of the projects I've worked on. Each project reflects a unique challenge and an opportunity to learn and strengthen my skills across various areas of software development. Below are highlights of the work I've completed.",
 
         "projects": [
             {
