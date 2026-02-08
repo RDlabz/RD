@@ -30,7 +30,7 @@ export function BodyWindow({
     children: React.ReactNode;
 }) {
     return (
-        <section className="flex flex-1 h-full gap-5">
+        <section className="bodygrid flex flex-1 h-full gap-5">
             {children}
         </section>
     )
