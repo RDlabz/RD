@@ -4,6 +4,7 @@ import { BodyWindow, SideWindow, Window, WindowGrid } from "@/components/WindowM
 import en from "@/LabContent/en.json"
 import { useState } from "react";
 import {Icon} from "@iconify/react";
+import Tools from "@/components/Tools";
 
 const home = en.home
 
@@ -16,7 +17,8 @@ export default function App() {
       <SideWindow>
         {tools && (
           <Window title="Tools">
-            <a onClick={() => {showTools(false)}}>x</a>
+            <Icon icon="material-symbols:close" width={30} height={30} className="cursor-pointer float-right" onClick={() => {showTools(false)}} />
+            <Tools />
           </Window>
         )}
       </SideWindow>
