@@ -8,7 +8,7 @@ export default function WindowManager({
 }) {
     return (
         <div id="WindowManager" className="h-screen w-screen grid grid-rows-[8%_90%] p-5 gap-5">
-            <Window title="Welcome">{header}</Window>
+            <Window title="Nav">{header}</Window>
             <main className="flex-grow">{children}</main>
         </div>
     )
