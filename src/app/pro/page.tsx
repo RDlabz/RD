@@ -19,12 +19,11 @@ export default function App() {
           <ProjectList projects={projects.projects} setSelectedProject={setSelectedProject} />
         </Window>
         {Boolean(Object.keys(selectedProject).length) && (
-          <Window title={selectedProject.abstract} padding={"10px 3%"}>
+          <Window id="projectDescription" title={selectedProject.abstract} padding={"10px 3%"}>
             <div className="w-full sticky top-0 bg-rd-base z-10 h-8 flex items-center justify-end">
               <Icon icon="material-symbols:close" width={30} height={30} className="cursor-pointer" onClick={() => { setSelectedProject({}) }} />
             </div>
             <a
-              id="projectDescription"
               href={selectedProject.link}
               className="text-2xl font-bold"
               target="_blank"

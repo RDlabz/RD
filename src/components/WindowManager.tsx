@@ -53,16 +53,18 @@ export function SideWindow({
 
 export function Window({
     children,
+    id,
     title,
     padding = 0
 }:{
     children: React.ReactNode;
+    id?: string;
     title?: string;
-    padding?: any
+    padding?: any;
 }) {
 
     return (
-        <div className="relative w-full border border-rd-fg text-rd-fg rounded-md hover:text-rd-primary hover:border-rd-primary">
+        <div id={id} className="relative w-full border border-rd-fg text-rd-fg rounded-md hover:text-rd-primary hover:border-rd-primary">
             <small className="absolute text-sm -top-2.5 left-6 bg-rd-base px-2">{title}</small>
             <div className="size-full" style={{padding: padding}}>
                 <div className="size-full text-rd-fg overflow-auto">
