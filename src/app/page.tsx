@@ -39,7 +39,7 @@ export default function App() {
           ))}
           <div className="py-2"></div>
           {home.bye.map((t, i) => (<p key={"t"+i} className="text-justify my-2 text-xl">{t}</p>))}
-          <div className="flex items-center justify-evenly w-full pb-12">
+          <div className="flex items-center justify-evenly gap-y-4 flex-wrap w-full pt-6 pb-12">
             {home.links.map((link, i) => (
               <a key={"link"+i} href={link.link} target="_blank" className="flex items-center justify-center w-60 gap-2">
                 <Icon icon={link.icon} className="fill-rd-primary" width={22} height={22} />
