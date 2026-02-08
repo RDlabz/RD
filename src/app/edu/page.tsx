@@ -12,9 +12,9 @@ export default function App() {
           <div className="py-5">
             {edu.uni.map((uni, ind) => {
               if (uni.includes("**UNI**")) 
-                    return (<p className="text-justify text-xl my-2" key={"uni_"+ind}>{uni.replace("**UNI**", "")} <a className="font-extrabold" href={edu.university} target="_blank">IHU</a></p>)
-                  else
-                    return (<p className="text-justify text-xl my-2" key={"uni_"+ind}>{uni}</p>)
+                return (<p className="text-justify text-xl my-2" key={"uni_"+ind}>{uni.replace("**UNI**", "")} <a className="font-extrabold" href={edu.university} target="_blank">IHU</a></p>)
+              else
+                return (<p className="text-justify text-xl my-2" key={"uni_"+ind}>{uni}</p>)
             })}
           </div>
         </Window>
