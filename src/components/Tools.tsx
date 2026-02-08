@@ -9,7 +9,7 @@ export default function Tools() {
                 <div key={"tool_" + tool.key}>
                     <p>{(i === (tools.length - 1)) ? "└" : "├"} {tool.key} ┐</p>
                     {tool.value.map((value, ind) => (
-                        <p className="py-0">
+                        <p key={"tool_value_"+value.name} className="py-0">
                             {(i === (tools.length - 1)) ? "" : "│"}
                             <span style={{marginLeft: `${(2 + tool.key.length) + ((i === (tools.length - 1)) ? 1 : 0)}ch`}}>
                                 {(ind === (tool.value.length - 1)) ? "└" : "├"} 
