@@ -64,7 +64,7 @@ export function Window({
 }) {
 
     return (
-        <div id={id} className="relative w-full border border-rd-fg text-rd-fg rounded-md hover:text-rd-primary hover:border-rd-primary">
+        <div id={id} className="relative w-full border border-rd-fg text-rd-fg rounded-md transition-all duration-[400ms] ease-in-out hover:text-rd-primary hover:border-rd-primary">
             <small className="absolute text-sm -top-2.5 left-6 bg-rd-base px-2">{title}</small>
             <div className="size-full" style={{padding: padding}}>
                 <div className="size-full text-rd-fg overflow-auto">
