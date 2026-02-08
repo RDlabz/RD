@@ -40,7 +40,7 @@
         ]
     },
     {
-        "key": "Programming/Markup/etc Languages",
+        "key": "Languages",
         "value": [
             {
                 "name": "Javascript",
@@ -95,7 +95,7 @@
         ]
     },
     {
-        "key": "Other Tools",
+        "key": "Other",
         "value": [
             {
                 "name": "Nodejs",

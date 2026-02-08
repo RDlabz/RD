@@ -16,8 +16,10 @@ export default function App() {
     <WindowGrid>
       <SideWindow>
         {tools && (
-          <Window title="Tools">
-            <Icon icon="material-symbols:close" width={30} height={30} className="cursor-pointer float-right" onClick={() => {showTools(false)}} />
+          <Window title="Tools" padding={"5px 5px"}>
+            <div className="sticky top-0 w-full flex justify-end items-center">
+              <Icon icon="material-symbols:close" width={30} height={30} className="cursor-pointer" onClick={() => {showTools(false)}} />
+            </div>
             <Tools />
           </Window>
         )}
