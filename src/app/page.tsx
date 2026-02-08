@@ -1,15 +1,52 @@
 'use client'
+import Ascii from "@/components/Ascii";
+import { BodyWindow, SideWindow, Window, WindowGrid } from "@/components/WindowManager";
 import en from "@/LabContent/en.json"
+import { useState } from "react";
+import {Icon} from "@iconify/react";
 
 const home = en.home
 
 export default function App() {
+
+  const [tools, showTools] = useState<boolean>(false)
+
   return (
-    <section>
-      <h2 className="mb-1">{home.card.titles}</h2>
-      <div className="w-full h-px my-1 bg-rd-fg"></div>
-      {home.greeting.map((greet, ind) => (<p key={"greet_"+ind} className={`text-justify my-1 ${!ind && "text-rd-sub"}`}>{greet}</p>))}
-      <p className="w-full text-center mt-12 text-rd-small">This website is still under heavy constraction</p>
-    </section>
+    <WindowGrid>
+      <SideWindow>
+        {tools && (
+          <Window title="Tools">
+            <a onClick={() => {showTools(false)}}>x</a>
+          </Window>
+        )}
+      </SideWindow>
+      <BodyWindow>
+        <Window title="Home Page" padding={"12px 3%"}>
+          <Ascii />
+          {home.text.map((t, i) => (<p key={"t"+i} className="text-justify my-2 text-xl">{t}</p>))}
+          {home.fields.map((field) => (
+            <div className="text-2xl text-justify my-5" key={"field_" + field.title}>
+              <p className="font-semibold">{field.title}</p>
+              {field.info.map((info: string, ind) => {
+                  if (info.includes("**HERE**")) 
+                    return (<p className="text-xl" key={field.title + ind}>{info.replace("**HERE**", "")} <a className="font-extrabold" onClick={() => {showTools(true)}}>Here</a></p>)
+                  else
+                    return (<p className="text-xl" key={field.title + ind}>{info}</p>)
+              })}
+            </div>
+          ))}
+          <div className="py-2"></div>
+          {home.bye.map((t, i) => (<p key={"t"+i} className="text-justify my-2 text-xl">{t}</p>))}
+          <div className="flex items-center justify-evenly w-full pb-12">
+            {home.links.map((link, i) => (
+              <a key={"link"+i} href={link.link} target="_blank" className="flex items-center justify-center w-60 gap-2">
+                <Icon icon={link.icon} className="fill-rd-primary" width={22} height={22} />
+                <p className="text-lg">{link.name}</p>
+              </a>
+            ))}
+          </div>
+        </Window>
+      </BodyWindow>
+    </WindowGrid>
   );
 }

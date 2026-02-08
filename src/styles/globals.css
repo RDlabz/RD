@@ -9,9 +9,8 @@
 
   --title: 2.5em;
   --nav: 2em;
-  --sub-nav: 1.4em;
-  --body: 1.25em;
-  --small: 1em;
+  --body: 1.44em;
+  --small: 0.9em;
 }
 
 @theme inline {
@@ -66,12 +65,8 @@ h2 {
   font-size: var(--nav);
 }
 
-h3 {
-  font-size: var(--sub-nav);
-}
-
 p {
-  font-size: var(--body);
+  /* font-size: var(--body); */
 }
 
 small {
@@ -112,7 +107,7 @@ a {
     --nav: 1.8em;
     --sub-nav: 1.2em;
     --body: 1em;
-    --small: 0.8em;
+    --small: 0.9em;
   }
 
   nav {

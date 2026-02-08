@@ -17,7 +17,6 @@ export default function App() {
         selectedProject ? 
           <section id="projectDescription">
             <a 
-              className="text-rd-sub"
               href={selectedProject.link}
               target="_blank"
               onMouseEnter={e => (e.currentTarget.style.color = selectedProject.color)}

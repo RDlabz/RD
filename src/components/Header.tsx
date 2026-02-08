@@ -46,8 +46,8 @@ export default function Header() {
 
     return (
         <nav className="w-full h-full flex justify-between items-center">
-            <p className="text-rd-title font-rd-pixel cursor-pointer" title="Under Construction">{title}<span className="text-rd-primary">{lastLetter}</span></p>
-            <div className="flex gap-x-[1dvw] font-rd-terminal text-rd-sub h-full">
+            <p className="text-6xl font-rd-pixel cursor-pointer" title="Under Construction">{title}<span className="text-rd-primary">{lastLetter}</span></p>
+            <div className="flex gap-x-[1dvw] font-rd-terminal h-full">
                 <a className='h-full flex items-center' onClick={() => {router.push("/.")}}>
                     <Icon icon={icon("home")} width={32} height={32} />
                 </a>

@@ -10,14 +10,56 @@
             "photo": "No Photo Yet."
         },
 
-        "greeting": [
-            "Welcome to my Laboratory!",
-            "This is my personal website which also serves as my portfolio. Furthermore, it serves as an effective means of monitoring my growth across various areas. For example, every time I learn a new language, I'll add it here. In this page, you'll read about my work experience, tools that I'm proficient with and more. For more info about me, my personality, interests, etc, click on the website logo (top-left) (coming soon)."
+        "text": [
+            "Welcome to my Website/Portfolio!",
+            "My name is Ardi Stringa, I'm a 22 y/o undergraduate student and freelance developer. I'm deeply interested in and continuously strive to acquire knowledge across a range of IT fields, fueled by my relentless passion for problem-solving and curiosity to understand complicated systems.",
+            "The fields that interent me the most are:"
         ],
 
-        "tools": "The Tools I Use",
+        "fields": [
+            {
+                "title": "Full-stack Development",
+                "info": [
+                    "Where I enjoy building intricate, dynamic, high-performance user interfaces with sleek and modern designs, guaranteeing user-friendly experiences.",
+                    "I focus on creating responsive layouts that adapt seamlessly across all devices, ensuring accessibility to all users.",
+                    "I also prioritize robust security, ensuring that my webapps are not only slick and sophisticated but also safe and reliable.",
+                    "I am proficient with a variety of full-stack tools and technologies which you can check **HERE**"
+                ]
+            },
+            {
+                "title": "Game Development",
+                "info": [
+                    "Where my love for storytelling drives me to create deeply immersive and narrative driven experiences that explore a diverse range of emotionally impactful themes.",
+                    "I am also passionate about crafting games that challenge players through engaging, puzzle-driven mechanics.",
+                    "Through my games, I aim to tell personal stories, moments of self-discovery, struggles and emotional growth, while designing mechanics and gameplay that honor and amplify the narrative itself."
+                ]
+            },
+            {
+                "title": "Cyber Security",
+                "info": [
+                    "My passion for cyber security comes from the trill of problem-solving and understanding complex systems.",
+                    "I am captivated by it's many domains - from penetration testing and cryptography to digital forensics - that fascinate and fuel my curiosity.",
+                    "Every day, I'm learning, experimenting through online challenges and pushing my self to grow as a security practitioner."
+                ]
+            }
+        ],
+        
+        "bye": [
+            "If you are interested in hiring me, collaborating on a project or discussing a potential partnership, feel free to contact me."
+        ],
 
-        "work": ["Work Experience", "-Currently none"]
+        "links": [
+            {
+                "name": "Dr-Ardi",
+                "icon": "fa-github",
+                "link": "https://github.com/Dr-Ardi"
+            },
+            {
+                "name": "ardi.str@proton.me",
+                "icon": "fa-at",
+                "link": "mailto:ardi.str@proton.me"
+            }
+        ]
             
     },
 
