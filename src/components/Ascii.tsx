@@ -1,6 +1,6 @@
 export default function Ascii() {
     return (
-        <div className="w-full flex items-center justify-center pb-5 text-xs">
+        <div className="w-full flex items-center justify-center pb-4 pt-1 text-xs">
             <pre>{
 `            10000000000000       00001    10000            
            00111111000000        0000    1100000           
