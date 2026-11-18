@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   creator: "Ardi Stringa",
   description: "Slick, Efficient and Secured Applications",
   keywords: ["Labs", "Dev", "Games", "Cyber Security", "Applications"],
-  manifest: '/RD/manifest.json',
+  manifest: '/manifest.webmanifest',
   themeColor: "#5f0404",
   icons: {
     icon: "/RD/favicon.ico",
@@ -66,6 +66,9 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${pixel.variable} ${tech.variable} ${body.variable} antialiased bg-rd-base`}
       >
