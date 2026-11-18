@@ -4,6 +4,7 @@ import withPWA from 'next-pwa';
 const config: NextConfig = {
   trailingSlash: false,
   reactStrictMode: true,
+  output: 'export',
 };
 
 export default withPWA({
